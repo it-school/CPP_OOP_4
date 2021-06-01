@@ -8,7 +8,7 @@ private:
 	string fullName; // Full Name
 	tm* birthday;	 // 1.1.2000
 	string address;  // Odessa
-	string phone;	 // +38(098) 123-45-98
+	string phone;	 // +xx (xxx) xxx-xx-xx
 	tm* registrationDate;
 public:
 	string getFullName()
@@ -76,7 +76,7 @@ public:
 	{
 		this->setFullName("Anonymous");
 		this->setAddress("Odessa");
-		this->setPhone("+38(098) 123-45-98");
+		this->setPhone("+38(0xx) xxx-xx-xx");
 		this->birthday = new tm;
 
 		tm* birthday = new tm();
